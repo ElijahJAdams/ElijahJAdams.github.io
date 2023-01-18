@@ -1,0 +1,37 @@
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #f0f0f0;
+    height: 100vh;
+}
+
+.qualifications{
+    background-color:#e6fcec;
+    width: 30%;
+    height: 40vh;
+    margin: 5%;
+   
+}
+
+.education{
+    background-color: #e6fcec;
+    width: 30%;
+    height: 40vh;
+    margin: 5%;
+   
+}
+
+
+
+
+h2{
+    text-align: center;
+    padding: 5px;
+    text-decoration: underline;
+}
+
+
+
+.insideBox{
+    padding: 20px;
+
+}

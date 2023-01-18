@@ -1,0 +1,38 @@
+body{
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.textSect{
+    width: 50vw;
+    font-size: 2em;
+   
+
+}
+
+main{
+    background-image: url("../images/foliaHero.png");
+    width: 100%;
+    height: 100vh;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+
+}
+
+main p{
+ 
+    font-weight: bold;
+    font-size: 2em; 
+    background-color: rgb(255, 255, 255, .7);
+    padding: 20px;
+    margin-bottom: 70px;
+    
+}
+
+main img{
+    border: 5px solid rgb(39, 39, 84);
+}
+
