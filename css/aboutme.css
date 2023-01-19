@@ -1,5 +1,6 @@
 body{
     font-family: 'Josefin Sans', sans-serif;
+    
 
 }
 
@@ -34,5 +35,29 @@ main p{
 
 main img{
     border: 5px solid rgb(39, 39, 84);
+}
+
+@media screen and (max-width: 600px) {
+
+
+body{
+    font-size: .5em;
+    background-color:  #f0f0f0;
+}
+
+main{
+    background-image: none;
+}
+
+img{
+    display: none;
+}
+
+.imageNO{
+    display: none;
+}
+    
+    
+   
 }
 

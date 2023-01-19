@@ -17,22 +17,34 @@
     <title>My Resume</title>
 </head>
 <body class="position-relative">
-    <header>
-        <section class="">
-            <nav class="navbar navbar-expand navbar-dark bg-dark ">
-              <div class="container py-4 fs-3">
-                  <a href="#" class="navbar-brand fs-2">Eli Adams</a>
-                    <div class="navbar-nav ">
-                    <a href="../index.html" class="nav-item nav-link ">About Me</a>
-                    <a href="" class="nav-item nav-link active ">My Work</a>
-                    <a href="" class="nav-item nav-link">Fun Facts</a>
-                    <a href="../resume/realResume.html" class="nav-item nav-link ">Resume</a>
-                </div>
-              </div>
-            </nav>
-          </section>
-    </header>
 
+ <header>
+ 
+  <section class="">
+    <nav class="navbar bg-dark navbar-dark navbar-expand-sm">
+<!--     the setting to make a responsive navbar -->
+    <div class="container-fluid hateyou textbig fs-3">
+      <a href="#" class="navbar-brand textbig fs-3">Eli Adams</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+<!--       we need a div around our navigation icons so they can collapse -->
+      <div class="collapse navbar-collapse" id="navmenu">
+<!--         this is the id for the button to toggle -->
+        <div class="navbar-nav nav-pills ms-auto">
+         <a href="index.html" class="nav-item nav-link">About Me</a>
+         <a href="" class="nav-item nav-link active">My Work</a>
+         <a href="funFacts.html" class="nav-item nav-link">Fun Facts</a>
+         <a href="resume/realResume.html" class="nav-item nav-link">Resume</a></div>
+             
+        
+      </div>
+      
+    </div>
+    
+   </nav>
+  </section>
+</header>
 
     <section class="bgimage ">
         <div class="container-fluid ">
@@ -123,23 +135,6 @@
       </div>
     </div>
 
-    <footer class="position-absolute container-fluid p-0 ">
-        <section class="contactMe">
-            <nav class="navbar navbar-expand navbar-dark bg-dark ">
-              <div class="container py-4 fs-3">
-                 
-                    <div class="navbar-nav ">
-    
-                   
-                      <a class="nav-item nav-link contactMe ">Contact Me: elijajjadams@gmail.com or 1+ (802)503-9910</a>
-                      
-                  
-                </div>
-               
-              </div>
-            </nav>
-          </section>
-      </footer>
    
 </body>
 </html>

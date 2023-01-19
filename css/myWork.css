@@ -60,3 +60,19 @@ h2{
     height: 100vh;
   }
 
+img{
+    border: 5px solid black;
+    object-fit: fill;
+}
+
+@media screen and (max-width: 600px) {
+    h3{
+        font-size: 1em;
+    }
+
+    img{
+        border: 2px solid black;
+    }
+
+     
+  }

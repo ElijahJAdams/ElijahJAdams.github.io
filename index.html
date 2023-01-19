@@ -20,61 +20,57 @@
     <link rel="icon" type="images/favicon-32x32.png" sizes="32x32" href="images/favicon-32x32.png">
 </head>
 <body class="position-relative">
-    <header>
-        <section class="">
-            <nav class="navbar navbar-expand navbar-dark bg-dark ">
-              <div class="container py-4 fs-3">
-                  <a href="#" class="navbar-brand fs-2">Eli Adams</a>
-                    <div class="navbar-nav ">
-                    <a href="" class="nav-item nav-link active">About Me</a>
-                    <a href="../myWork.html" class="nav-item nav-link ">My Work</a>
-                    <a href="" class="nav-item nav-link">Fun Facts</a>
-                    <a href="resume/realResume.html" class="nav-item nav-link">Resume</a>
-                </div>
-              </div>
-            </nav>
-          </section>
-    </header>
+  <header>
+ 
+    <section class="">
+      <nav class="navbar bg-dark navbar-dark navbar-expand-sm">
+  <!--     the setting to make a responsive navbar -->
+      <div class="container-fluid hateyou textbig fs-3">
+        <a href="#" class="navbar-brand textbig fs-3">Eli Adams</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+  <!--       we need a div around our navigation icons so they can collapse -->
+        <div class="collapse navbar-collapse" id="navmenu">
+  <!--         this is the id for the button to toggle -->
+          <div class="navbar-nav nav-pills ms-auto">
+           <a href="index.html" class="nav-item nav-link active">About Me</a>
+           <a href="../myWork.html" class="nav-item nav-link ">My Work</a>
+           <a href="funFacts.html" class="nav-item nav-link">Fun Facts</a>
+           <a href="resume/realResume.html" class="nav-item nav-link ">Resume</a></div>
+               
+          
+        </div>
+        
+      </div>
+      
+     </nav>
+    </section>
+  </header>
 
     <main class="">
         <div class="container col-xxl-8 px-4 py-5 has-bg-img">
             <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-              <div class="col-10 col-sm-8 col-lg-6">
+
+              <div class="col-10 col-sm-8 col-lg-6 imageNO">
                 <img src="images/aboutMe.jpg" class="d-block mx-lg-auto img-fluid rounded img-thumbnail" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
               </div>
+
               <div class="col-lg-6 ">
-                <h1 class="display-5 fw-bold lh-1 mb-3 text-white">About Me</h1>
+                <h1 class="display-5 fw-bold lh-1 mb-3 ">About Me</h1>
                 <p class="text-dark">My name is Eli, I bounced around a general area in Vermont. I’m the youngest of three and was always the loud annoying sibling. I’m a game designer who attends the Center for Technology, Essex and have a passion for games. In 2022 I won the SkillsUSA Interactive Application and Game Development State Competition and attended the national competition in Atlanta, Georgia. I hope to attend college for game design and get a cushy desk job someday. In my spare time I enjoy video games, messing with my car and hanging out with my friends.</p>
                 <div class="d-grid gap-2 d-md-flex justify-content-md-start">
                  
                 </div>
+
               </div>
             </div>
             
           </div>
-
-    
-
-    </section>
-    </main>
+        
+      </main>
 
 
-    <footer class="position-absolute container-fluid p-0 fixed-bottom">
-      <section class="contactMe">
-          <nav class="navbar navbar-expand navbar-dark bg-dark ">
-            <div class="container py-4 fs-3">
-               
-                  <div class="navbar-nav ">
-
-                 
-                    <a class="nav-item nav-link contactMe ">Contact Me: elijajjadams@gmail.com or 1+ (802)503-9910</a>
-                    
-                
-              </div>
-             
-            </div>
-          </nav>
-        </section>
-    </footer>
+ 
 </body>
 </html>
